@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+   <!--contact fields and layout-->
+    <types>
+        <members>Contact.Product__c</members>
+        <members>Contact.Home_Country__c</members>
+        <members>Contact.External_Id__c</members>
+        <name>CustomField</name>
+    </types>
+
+     <types>
+        <members>Contact-Contact Layout</members>
+        <name>Layout</name>
+    </types>
+
+    <!--case flexipage -->
+    <types>
+        <members>Case_Record_Page</members>
+        <name>Flexipage</name>
+    </types>
+    <!--LWC component for displaying contact product info-->
+    <types>
+        <members>contactProductInfo</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <!--Flow to validate product and country fields-->
+    <types>
+        <members>Contact_Validate_Product_Country_Fields</members>
+        <name>Flow</name>
+    </types>
+    <!--Custom Metadata for Customer Product Info Config-->
+    <types>
+        <members>Customer_Product_Info_Config__mdt</members>
+        <name>CustomObject</name>
+    </types>
+
+    
+    <types>
+        <members>*</members>
+        <name>CustomMetadata</name>
+    </types>
+    <!--apex classes-->
+    <types>
+        <members>ContactProductInfoConstants</members>
+        <members>ContactProductInfoController</members>
+        <members>ContactProductInfoControllerTest</members>
+        <members>ContactProductInfoApiService</members>
+        <members>ContactProductInfoApiServiceTest</members>
+        <members>ContactProductInfoDTO</members>
+        <members>QueryBuilder</members>
+        <members>QueryBuilderTest</members>
+        <members>CaseBuilder</members>
+        <members>ContactBuilder</members>
+        <members>CaseSelector</members>
+        <members>ContactSelector</members>
+        <members>CustomerProductInfoConfigSelector</members>
+        <members>IGenericMetadataSelector</members>
+        <members>ISelector</members>
+        <members>TestDataUtil</members>
+        <name>ApexClass</name>
+    </types>
+    <version>59.0</version>
+</Package>

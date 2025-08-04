@@ -1,0 +1,41 @@
+<template>
+    <template if:true={data}>
+        <lightning-card>
+            <lightning-layout multiple-rows>
+                <lightning-layout-item size="2" flexibility="auto" padding="none">
+                    <div class="slds-slds-box slds-box_xx-small">
+                        <p class="slds-form-element__label slds-text-title_bold">{fieldLabels.product__c}: </p>
+                        <p class="slds-text-body_regular">{product}</p>
+                    </div>
+                </lightning-layout-item>
+                 <lightning-layout-item size="2" flexibility="auto" padding="none">
+                    <div class="slds-slds-box slds-box_xx-small">
+                        <p class="slds-form-element__label slds-text-title_bold">{fieldLabels.country_name__c}: </p>
+                        <p class="slds-text-body_regular">{country}</p>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="2" flexibility="auto" padding="none">
+                    <div class="slds-slds-box slds-box_xx-small">
+                        <p class="slds-form-element__label">{fieldLabels.monthly_cost__c}: </p>
+                        <p class="slds-text-body_regular">{monthlyCost}</p>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="2" flexibility="auto" padding="none">
+                    <div class="slds-slds-box slds-box_xx-small">
+                        <p class="slds-form-element__label">{fieldLabels.atm_fee__c}: </p>
+                        <p class="slds-text-body_regular">{atmFee}</p>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item size="2" flexibility="auto" padding="none">
+                    <div class="slds-slds-box slds-box_xx-small">
+                        <p class="slds-form-element__label">{fieldLabels.card_replacement_cost__c}: </p>
+                        <p class="slds-text-body_regular">{cardReplacementCost}</p>
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-card>
+    </template>
+    <template if:true={error}>
+        <div class="slds-text-color_error">{error.body.message}</div>
+    </template>
+</template>

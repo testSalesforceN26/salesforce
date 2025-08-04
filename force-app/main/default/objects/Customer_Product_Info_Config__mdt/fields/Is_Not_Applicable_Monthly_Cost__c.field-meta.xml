@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Not_Applicable_Monthly_Cost__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates if the cost per calendar month is not applicable</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Is Not Applicable Monthly Cost</label>
+    <type>Checkbox</type>
+</CustomField>

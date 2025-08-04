@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Overview</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Product__c</columns>
+    <columns>Country_Name__c</columns>
+    <columns>Country_Code__c</columns>
+    <columns>Currency_Code__c</columns>
+    <columns>Currency_Symbol__c</columns>
+    <columns>Monthly_Cost__c</columns>
+    <columns>Is_Not_Applicable_Monthly_Cost__c</columns>
+    <columns>Card_Replacement_Cost__c</columns>
+    <columns>ATM_Fee__c</columns>
+    <columns>Is_Free_ATM_Fee__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>General Overview</label>
+    <language>en_US</language>
+</ListView>

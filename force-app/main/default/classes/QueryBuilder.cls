@@ -4,8 +4,7 @@
  * It supports constructing queries with flexible filtering, sorting, and field selection options.
  * 
  * @author Carlos Martínez Pérez
- * @date 2024-06-10
- * @version 1.0
+ * @date 2025-08-01
  */
 public with sharing class QueryBuilder {
     

@@ -45,7 +45,9 @@ The codebase follows Apex best practices, particularly the Separation of Concern
 
 ## Lightning Components & UI
 
-- **contactProductInfo**: A Lightning Web Component (LWC) for displaying contact product information, leveraging the structured data model and metadata for dynamic rendering.
+- **contactProductInfo**: A Lightning Web Component (LWC) for displaying contact product information, leveraging the structured data model and metadata for dynamic rendering, it will only be visible on Case Layout when Product__c and Home_country__c are not empty.
+
+  <img width="1255" height="717" alt="image" src="https://github.com/user-attachments/assets/a2c8f528-60ae-4d48-9ae4-55b9330f83e9" />
 
 
 ## API Service: Contact Product Info
